@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html{
+    scroll-behavior:smooth;
+  }
+
+section{
+    height: 600px;
+    position: relative;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    height: 60px;
+    align-items: center;
+    box-shadow: 2px 2px 12px rgb(228, 8, 8);
+    position: sticky;
+    left:0;
+    top:0;
+    z-index:1;
+    background-color: rgb(241, 235, 235);
+    opacity: 0.7;
+    
+}
+
+#home{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7qwQFFN6BQCrp8eIwUKQFRhlMbjp1VNxRXQ&usqp=CAU);
+    background-size: cover;
+}
+#me{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7qwQFFN6BQCrp8eIwUKQFRhlMbjp1VNxRXQ&usqp=CAU);
+    background-size: cover;
+}
+#reachme{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7qwQFFN6BQCrp8eIwUKQFRhlMbjp1VNxRXQ&usqp=CAU);
+    background-size: cover;
+}
+#gallery{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7qwQFFN6BQCrp8eIwUKQFRhlMbjp1VNxRXQ&usqp=CAU);
+    background-size: cover;
+}
+
+.navbar ul{
+    display: flex;
+    list-style:none;
+}
+.navbar ul li a{
+    padding:5px 5px;
+    text-decoration: none;
+    color:rgb(24, 23, 23);
+    font-family:italic;
+    font-weight: bold;
+    font-size: 17px;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid white;
+    color: rgb(32, 32, 31);
+}
+
+.navbar ul li a:active{
+    color:rgb(20, 167, 167);
+}
+
+
+/* text in home */
+
+span{
+    color: rgb(27, 12, 238);
+}
+
+
+.text p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color:#6d6d6d;
+    font-size: 20px;    
+}
+.text p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:rgb(241, 18, 18);
+    font-size: 50px;
+}
+
+.text p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 20px;
+}
+
+.text p{
+    line-height: 2px;
+    margin: 45px 0px 25px;
+    color: rgb(0, 0, 0);
+}
+
+.text{
+    align-content: center;
+    position: absolute;
+    left: 13%;
+    top:42%;
+    transform: translate(-13%,-42%);
+}
+
+.model{
+    height: 300px;
+    position: absolute;
+    bottom: 5px;
+    top:25%;
+    left:80%;
+    transform: translateX(-70%);
+}
+
+.about{
+    width:80%;
+    height: 300px;
+    transform: translate(0,44%);
+    display: flex;
+    margin:-7% auto 20px auto;
+}
+.about img{
+    height: 330px;
+    padding: 0% 2%;
+}
+.about-text{
+    padding: 10% 80%;
+    align-items: center;
+    width: 550px; 
+    text-decoration: none;
+}
+.about-text p:nth-child(1){
+    
+    color:rgb(0, 0, 0);
+    font-family: myriad pro;
+    font-weight:bold;
+    font-size:23px;
+    transform: translate(0%,-50%);
+    line-height: 40px;
+}
+.about-text p:nth-child(2){
+    color:rgb(15, 15, 15);
+    font-size: 20px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 40px;
+}
+.about-text p:nth-child(3){
+    color:rgb(17, 17, 17);
+    font-family: calibri;
+    font-size:16px;
+}
+.contact{
+    width:80%;
+    height: 330px;
+    display: flex;
+    transform: translate(0,44%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    display: flex;
+    margin:-7% auto 20px auto;
+    }
+
+.contact p{
+    color: rgb(10, 10, 10);
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+    line-height: 100px;
+}
+.social-media a{
+    width: 50%;
+    font-weight: bold;
+    padding: 10px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: rgb(168, 133, 214);
+}
+
+.fa-instagram {
+  background: #a320e0;
+  color: white;
+}
+
+.social-media{
+    display: flex;
+}
+
+
+/*..........gallary...............*/
+/* portfolio section */
+#gallery{
+    display: flex;
+    flex-direction: column;
+    
+}
+#gallery h1{
+    margin:60px;
+    color: rgb(2, 22, 44);
+}
+.gallary{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallary img{
+    width: 350px;
+    height: 350px;
+    padding: 2px;
+    margin:5px;
+}
+
+.gallary img:hover{
+    background-color: rgb(233, 144, 163);
+    cursor: pointer;
+}
+.heading{
+    color:rgb(247, 11, 11);
+    font-size:3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+
+.logo{
+    color: darkmagenta;
+    font-family: Arial, Helvetica, sans-serif;
+}
